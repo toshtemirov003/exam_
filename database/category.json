@@ -1,0 +1,18 @@
+[
+  {
+    "category_id" : 1,
+    "title": "IT"
+  },
+  {
+    "category_id" : 2,
+    "title": "Biznes"
+  },
+  {
+    "category_id" : 3,
+    "title": "Phone"
+  },
+  {
+    "category_id" : 4,
+    "title": "Car"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "subcategory_id": 1,
+    "category_id": 1,
+    "title": "Fullstack"
+  },
+  {
+    "subcategory_id": 2,
+    "category_id": 1,
+    "title": "Data Science"
+  },
+  {
+    "subcategory_id": 3,
+    "category_id": 2,
+    "title": "Tadbirkor"
+  },
+  {
+    "subcategory_id": 4,
+    "category_id": 2,
+    "title": "Biznes"
+  },
+  {
+    "subcategory_id": 4,
+    "category_id": 3,
+    "title": "Iphone"
+  },
+  {
+    "subcategory_id": 5,
+    "category_id": 3,
+    "title": "Samsung"
+  },
+  {
+    "subcategory_id": 6,
+    "category_id": 4,
+    "title": "BMW"
+  },
+  {
+    "subcategory_id": 7,
+    "category_id": 4,
+    "title": "Audi"
+  }
+]
