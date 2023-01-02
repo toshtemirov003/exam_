@@ -1,0 +1,120 @@
+/login:
+  post:
+    tags:
+      - Admin
+    description: Login
+    requestBody:
+      description: Login
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/Login"
+      required: true
+    responses:
+      "200":
+        description: login successfully
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/LoginResponse"
+
+/get-post:
+  get:
+    tags:
+      - Admin
+    responses:
+      "200":
+        description: Admin's get post
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AdminGet"
+      "400":
+        description: Invalid status value
+    security:
+      - Bearer:
+          type: apiKey
+
+/get-active:
+  get:
+    tags:
+      - Admin
+    responses:
+      "200":
+        description: Get active
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AdminGet"
+      "400":
+        description: Invalid status value
+    security:
+      - Bearer:
+          type: apiKey
+
+/get-rejected:
+  get:
+    tags:
+      - Admin
+    responses:
+      "200":
+        description: Get rejected
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AdminGet"
+      "400":
+        description: Invalid status value
+    security:
+      - Bearer:
+          type: apiKey
+
+/active-users/{postId}:
+  get:
+    tags:
+      - Admin
+    parameters:
+      - name: postId
+        in: path
+        description: Activate users
+        required: true
+        schema:
+          type: integer
+          format: int64
+    responses:
+      "200":
+        description: Active users
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AdminGet"
+      "400":
+        description: Invalid status value
+    security:
+      - Bearer:
+          type: apiKey
+
+/reject-user/{postId}:
+  get:
+    tags:
+      - Admin
+    parameters:
+      - name: postId
+        in: path
+        description: Reject users
+        required: true
+        schema:
+          type: integer
+          format: int64
+    responses:
+      "200":
+        description: Reject users
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AdminGet"
+      "400":
+        description: Invalid status value
+    security:
+      - Bearer:
+          type: apiKey

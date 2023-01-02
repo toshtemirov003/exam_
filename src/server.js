@@ -5,6 +5,7 @@ import { PORT } from "./config.js";
 import adminRoute from "./routes/admin.router.js";
 import route from "./routes/categories.router.js";
 import postsRoute from "./routes/posts.router.js";
+import swaggerRouter from "./swagger.js";
 
 const app = express();
 
@@ -16,6 +17,7 @@ app.use(fileUpload());
 app.use(route);
 app.use(adminRoute);
 app.use(postsRoute);
+app.use("/api-docs", swaggerRouter);
 
 app.listen(PORT, () =>
   console.log(`server is working http://localhost:${PORT}`)

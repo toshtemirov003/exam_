@@ -3,7 +3,7 @@ import {
   CATEGORIES,
   FULL_NAMES,
   SUBCATEGORIES,
-} from "../controllers/fields.controller.js";
+} from "../controllers/categories.controller.js";
 
 const route = Router();
 

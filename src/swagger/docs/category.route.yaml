@@ -1,0 +1,33 @@
+/categories:
+  get:
+    tags:
+      - categories
+    responses:
+      "200":
+        description: all categories
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/categoryRes"
+/subcategories:
+  get:
+    tags:
+      - subcategories
+    responses:
+      "200":
+        description: all subcategories
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/subcategoryRes"
+/fullname:
+  get:
+    tags:
+      - fullnames
+    responses:
+      "200":
+        description: all fullnames
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/fullnameRes"

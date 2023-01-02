@@ -1,0 +1,91 @@
+/post:
+  post:
+    tags:
+      - posts
+    description: Add new post
+    requestBody:
+      description: Create a new post
+      content:
+        multipart/form-data:
+          schema:
+            $ref: "#/components/schemas/postsPost"
+      required: true
+    responses:
+      "200":
+        description: Successful operation
+        content:
+          multipart/form-data:
+            schema:
+              $ref: "#/components/schemas/postResponse"
+
+/get-posts:
+  get:
+    tags:
+      - posts
+    responses:
+      "200":
+        description: all posts
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/postRes"
+
+/get-posts/{postId}:
+  get:
+    tags:
+      - posts
+    parameters:
+      - name: postId
+        in: path
+        description: ID of post to return
+        required: true
+        schema:
+          type: integer
+          format: int64
+    responses:
+      "200":
+        description: Query in postId
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/postRes"
+
+/get-img/{imgName}:
+  get:
+    tags:
+      - posts
+    parameters:
+      - name: imgName
+        in: path
+        description: Image of posts to return
+        required: true
+        schema:
+          type: string
+          format: int64
+    responses:
+      "200":
+        description: Get image
+        content:
+          multipart/form-data:
+            schema:
+              $ref: "#/components/schemas/getImage"
+
+/download/{imgName}:
+  get:
+    tags:
+      - posts
+    parameters:
+      - name: imgName
+        in: path
+        description: Image of posts to return
+        required: true
+        schema:
+          type: string
+          format: int64
+    responses:
+      "200":
+        description: Get image
+        content:
+          multipart/form-data:
+            schema:
+              $ref: "#/components/schemas/getImage"

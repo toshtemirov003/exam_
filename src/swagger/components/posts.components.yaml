@@ -1,0 +1,80 @@
+components:
+  schemas:
+    postRes:
+      type: object
+      properties:
+        postId:
+          type: integer
+        title:
+          type: string
+        text:
+          type: string
+        description:
+          type: string
+        dateYear:
+          type: integer
+        dateHour:
+          type: integer
+        category:
+          type: string
+        subcategory:
+          type: string
+        type:
+          type: string
+        postImg:
+          type: string
+          format: binary
+        status:
+          type: string
+        user:
+          type: object
+          properties:
+            fullname:
+              type: string
+            phone:
+              type: string
+            job:
+              type: string
+
+    postsPost:
+      type: object
+      properties:
+        title:
+          type: string
+        text:
+          type: string
+        description:
+          type: string
+        dateYear:
+          type: string
+        dateHour:
+          type: integer
+        category:
+          type: string
+        subcategory:
+          type: string
+        type:
+          type: string
+        postImg:
+          type: string
+          format: binary
+        fullname:
+          type: string
+        phone:
+          type: string
+        job:
+          type: string
+
+    postResponse:
+      type: object
+      properties:
+        status:
+          type: integer
+        messages:
+          type: string
+        data:
+          type: object
+
+    getImage:
+      content:
+        application/json:

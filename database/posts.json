@@ -1,71 +1,107 @@
 [
-    {
-        "postId": 1,
-        "title": "qwerty",
-        "text": "qwertyuio",
-        "description": "descriptionn",
-        "dateYear": "30-12-20222",
-        "dateHour": "22-23",
-        "category": "qwert",
-        "subcategory": "qwer",
-        "type": "offline",
-        "postImg": "1672440142180yangi yil.avif",
-        "isDeleted": true,
-        "status": "active",
-        "count": 1,
-        "user": {
-            "fullname": "Murodjon Toshtemirov",
-            "phone": "901170565",
-            "job": "IT"
-        },
-        "watched": [
-            "::1"
-        ]
+  {
+    "postId": 1,
+    "title": "qwerty",
+    "text": "qwertyuio",
+    "description": "descriptionn",
+    "dateYear": "30-12-20222",
+    "dateHour": "22-23",
+    "category": "qwert",
+    "subcategory": "qwer",
+    "type": "offline",
+    "postImg": "1672440142180yangi yil.avif",
+    "isDeleted": true,
+    "status": "active",
+    "count": 1,
+    "user": {
+      "fullname": "Murodjon Toshtemirov",
+      "phone": "901170565",
+      "job": "IT"
     },
-    {
-        "postId": 2,
-        "title": "titleeee",
-        "text": "lfwebfafweufhwe12345",
-        "description": "descriptionnqwert",
-        "dateYear": "31-12-2022",
-        "dateHour": "10-00",
-        "category": "apple",
-        "subcategory": "iphone",
-        "type": "online",
-        "postImg": "16724433582959.jpg",
-        "isDeleted": false,
-        "status": "rejected",
-        "count": 2,
-        "user": {
-            "fullname": "Qwerty",
-            "phone": "123456789",
-            "job": "IT"
-        },
-        "watched": [
-            "::1"
-        ]
+    "watched": ["::1"]
+  },
+  {
+    "postId": 2,
+    "title": "titleeee",
+    "text": "lfwebfafweufhwe12345",
+    "description": "descriptionnqwert",
+    "dateYear": "31-12-2022",
+    "dateHour": "10-00",
+    "category": "apple",
+    "subcategory": "iphone",
+    "type": "online",
+    "postImg": "16724433582959.jpg",
+    "isDeleted": false,
+    "status": "rejected",
+    "count": 2,
+    "user": {
+      "fullname": "Qwerty",
+      "phone": "123456789",
+      "job": "IT"
     },
-    {
-        "title": "Alisher Isaevdan biznes va IT bo’yicha master klass",
-        "text": "Najot Ta'lim jamoasi o'z o'quvchilari uchun manfaatli bo'lgan musobaqalarni tashkil etishda davom etadi. Biz bu gal markazimizdagi uch soha vakillari, ya'ni UX/UI dizayner, frontend va backend dasturchilarni \"bir dasturxon atrofida\" to'plashga qaror qildik.\n",
-        "description": "Najot Ta'lim jamoasi o'z o'quvchilari uchun manfaatli bo'lgan musobaqalarni tashkil etishda davom etadi. Biz bu gal markazimizdagi uch soha vakillari, ya'ni UX/UI dizayner, frontend va backend dasturchilarni \"bir dasturxon atrofida\" to'plashga qaror qildik.",
-        "dateYear": "31-12-2022",
-        "dateHour": "15-00",
-        "category": "Biznes",
-        "subcategory": "Tadbirkor",
-        "type": "Online",
-        "postImg": "1672614039494foto12.jpg",
-        "isDeleted": false,
-        "status": "result",
-        "count": 1,
-        "postId": 3,
-        "user": {
-            "fullname": "Alisher Isayev",
-            "phone": "998901232323",
-            "job": "Tadbirkor"
-        },
-        "watched": [
-            "::1"
-        ]
-    }
+    "watched": ["::1"]
+  },
+  {
+    "postId": 3,
+    "title": "Alisher Isaevdan biznes va IT bo’yicha master klass",
+    "text": "Najot Ta'lim jamoasi o'z o'quvchilari uchun manfaatli bo'lgan musobaqalarni tashkil etishda davom etadi. Biz bu gal markazimizdagi uch soha vakillari, ya'ni UX/UI dizayner, frontend va backend dasturchilarni \"bir dasturxon atrofida\" to'plashga qaror qildik.\n",
+    "description": "Najot Ta'lim jamoasi o'z o'quvchilari uchun manfaatli bo'lgan musobaqalarni tashkil etishda davom etadi. Biz bu gal markazimizdagi uch soha vakillari, ya'ni UX/UI dizayner, frontend va backend dasturchilarni \"bir dasturxon atrofida\" to'plashga qaror qildik.",
+    "dateYear": "31-12-2022",
+    "dateHour": "15-00",
+    "category": "Biznes",
+    "subcategory": "Tadbirkor",
+    "type": "Online",
+    "postImg": "1672614039494foto12.jpg",
+    "isDeleted": false,
+    "status": "result",
+    "count": 1,
+    "user": {
+      "fullname": "Alisher Isayev",
+      "phone": "998901232323",
+      "job": "Tadbirkor"
+    },
+    "watched": ["::1"]
+  },
+  {
+    "postId": 4,
+    "title": "Dizayn",
+    "text": "asdfadslnlsd",
+    "description": "dizayn bu ...",
+    "dateYear": "01-01-2023",
+    "dateHour": "00-00",
+    "category": "IT",
+    "subcategory": "Fullstack",
+    "type": "online",
+    "postImg": "1672440142180yangi yil.avif",
+    "isDeleted": false,
+    "status": "active",
+    "count": 2,
+    "user": {
+      "fullname": "Ali Aliyev",
+      "phone": "998990090999",
+      "job": "IT"
+    },
+    "watched": ["::1"]
+  },
+  {
+    "postId": 5,
+    "title": "awerewwe",
+    "text": "asdgasdga",
+    "description": "sgdasdgsdfgadfh",
+    "dateYear": "22-02-2022",
+    "dateHour": "22-00",
+    "category": "adfhafdh",
+    "subcategory": "dfahdfhfd",
+    "type": "offline",
+    "postImg": "16726938966149.jpg",
+    "isDeleted": false,
+    "status": "rejected",
+    "count": 0,
+    "user": {
+      "fullname": "qwergfddfg",
+      "phone": "123456789",
+      "job": "sdg"
+    },
+    "watched": []
+  }
 ]

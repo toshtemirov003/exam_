@@ -1,0 +1,55 @@
+components:
+  schemas:
+    Login:
+      type: object
+      properties:
+        username:
+          type: string
+        password:
+          type: string
+
+    LoginResponse:
+      type: object
+      properties:
+        status:
+          type: string
+        message:
+          type: string
+        token:
+          type: string
+
+    AdminGet:
+      type: object
+      properties:
+        postId:
+          type: integer
+        title:
+          type: string
+        text:
+          type: string
+        description:
+          type: string
+        dateYear:
+          type: integer
+        dateHour:
+          type: integer
+        category:
+          type: string
+        subcategory:
+          type: string
+        type:
+          type: string
+        postImg:
+          type: string
+          format: binary
+        status:
+          type: string
+        user:
+          type: object
+          properties:
+            fullname:
+              type: string
+            phone:
+              type: string
+            job:
+              type: string

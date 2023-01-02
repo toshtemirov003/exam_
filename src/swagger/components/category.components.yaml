@@ -1,0 +1,23 @@
+components:
+  schemas:
+    categoryRes:
+      type: object
+      properties:
+        category_id:
+          type: integer
+        title:
+          type: string
+    subcategoryRes:
+      type: object
+      properties:
+        sub_category_id:
+          type: integer
+        category_id:
+          type: integer
+        title:
+          type: string
+    fullnameRes:
+      type: object
+      properties:
+        data:
+          type: string
