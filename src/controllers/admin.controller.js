@@ -78,8 +78,8 @@ export const REJECT_USER = (req, res) => {
 
 export const LOGIN = (req, res) => {
   try {
-    let { username, password } = req.body;
     let admins = read("admins");
+    let { username, password } = req.body;
 
     password = crypto.createHash("sha256").update(password).digest("hex");
 

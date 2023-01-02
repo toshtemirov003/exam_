@@ -34,7 +34,7 @@
         "type": "online",
         "postImg": "16724433582959.jpg",
         "isDeleted": false,
-        "status": "active",
+        "status": "rejected",
         "count": 2,
         "user": {
             "fullname": "Qwerty",
@@ -56,7 +56,7 @@
         "type": "Online",
         "postImg": "1672614039494foto12.jpg",
         "isDeleted": false,
-        "status": "active",
+        "status": "result",
         "count": 1,
         "postId": 3,
         "user": {
